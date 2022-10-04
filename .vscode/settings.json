@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "ensemble",
+        "ns": "SAMPLES",
+        "active": true
+    }
+}
