@@ -5,6 +5,8 @@ Class Sample.Person Extends (%Persistent, %Populate, %XML.Adaptor)
 
 Parameter EXTENTQUERYSPEC = "Name,SSN,Home.City,Home.State";
 
+Property Ugly As %Boolean;
+
 // define indices for this class
 
 /// Define a unique index for <property>SSN</property>.
@@ -176,6 +178,9 @@ Storage Default
 </Value>
 <Value name="8">
 <Value>FavoriteColors</Value>
+</Value>
+<Value name="9">
+<Value>Ugly</Value>
 </Value>
 </Data>
 <DataLocation>^Sample.PersonD</DataLocation>
