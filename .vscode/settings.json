@@ -1,6 +1,6 @@
 {
     "objectscript.conn": {
-        "server": "ensemble",
+        "server": "default~iris",
         "ns": "SAMPLES",
         "active": true
     }
